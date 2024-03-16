@@ -8,9 +8,9 @@ import IonIcon from 'react-native-vector-icons'
 export const App = () => {
   return (
     <PaperProvider
-      settings={{
-        icon: (props) => <IonIcon {...props}/>
-      }}
+      // settings={{
+      //   icon: (props) => <IonIcon {...props}/>
+      // }}
     >
     <SafeAreaView style={{flex:1}}>
       {/* <HelloWordPageScreen name="Github"/> */}
